@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(19, 121, 82);
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin: 40px;
+    row-gap: 10px;
+    font-size: 20px; 
+    font-weight: bold;
+
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 100px;
+    color: goldenrod;
+    
+}
+#massage-el{
+    font-style: italic;
+}
+#strbtn  , #crdbtn{color: #016f32;
+    width:150px ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+border: none;
+border-radius: 2px;
+
+}
